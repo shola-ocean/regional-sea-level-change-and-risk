@@ -2,15 +2,16 @@
 Maximum Covariance Analysis (MCA) between Sea Level Anomalies (SLA)
 and Sea Surface Temperature (SST) over the African Atlantic coast.
 
-The workflow:
+This script:
 - Aligns SSH and SST datasets in space and time
-- Subsamples spatially for computational efficiency
 - Computes anomalies and standardizes fields
-- Performs MCA using SVD of the cross-covariance matrix
-- Produces spatial patterns, expansion coefficients, and SCF diagnostics
+- Applies MCA using cross-covariance SVD
+- Produces spatial patterns, expansion coefficients, and SCF
+- Saves publication-ready figures
 
-Outputs:
-- Figure: figures/Figure4_MCA_SLA_SST_corrected.png
+Expected inputs:
+- SSHafr.nc
+- SSTafr.nc
 """
 
 import xarray as xr
