@@ -59,4 +59,4 @@ Example output:
 
 ## Relevance
 
-This repository is intended as a minimal, transparent example of regional sea-level analysis suitable for climate risk assessment, projection development, and postdoctoral research applications.
+This repository is intended as a minimal, transparent example of regional sea-level analysis suitable for climate risk assessment, projection development
